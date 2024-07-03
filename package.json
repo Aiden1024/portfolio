@@ -9,7 +9,7 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
-		"@nextui-org/react": "^2.4.0",
+		"@nextui-org/react": "^2.4.2",
 		"@react-aria/visually-hidden": "^3.8.10",
 		"@types/node": "20.5.7",
 		"@types/react": "18.2.21",
@@ -27,7 +27,7 @@
 		"eslint-plugin-react": "^7.23.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-unused-imports": "^3.2.0",
-		"framer-motion": "^11.1.1",
+		"framer-motion": "^11.2.12",
 		"i18next": "^23.11.5",
 		"intl-messageformat": "^10.5.0",
 		"next": "14.2.1",

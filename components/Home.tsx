@@ -28,7 +28,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-[url('/BG/dark.jpg')] bg-center bg-fixed bg-cover w-full h-full ">
+    <div className="bg-[url('/portfolio/BG/dark.jpg')] bg-center bg-fixed bg-cover w-full h-full ">
       <div id="home"  className="flex flex-col lg:flex-row min-h-screen mx-auto max-w-screen-2xl px-4 items-center justify-center lg:justify-between gap-4  w-full  h-full -mt-16">
         <div className=' flex flex-col gap-1 items-start text-start max-w-screen-lg w-full '>
         <h2 className=' text-3xl tracking-wider '>{t("slogan", {ns: "home"})}</h2>

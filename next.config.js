@@ -2,6 +2,7 @@
 const { i18n } = require('./next-i18next.config')
 
 const nextConfig = {
+  basePath: "/portfolio",
   i18n,
   reactStrictMode: true,
   eslint: {
