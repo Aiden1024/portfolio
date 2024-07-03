@@ -7,8 +7,6 @@ import DefaultLayout from "@/layouts/default";
 
 import Home from "@/components/Home";
 import Products from "@/components/Products";
-import Partners from "@/components/Partners";
-import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Timeline from "@/components/Timeline";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -18,8 +16,6 @@ export default function IndexPage() {
     <DefaultLayout>
       <Home />
       <Products/>
-      <Partners/>
-      <About/>
       <Timeline/>
       <Footer/>
     </DefaultLayout>
