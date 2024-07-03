@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Vision Matrix",
-  description: "VM",
+  name: "TWINBLADES DEVELOP",
+  description: "TBDV",
   navItems: [
     {
       label: "Home",
