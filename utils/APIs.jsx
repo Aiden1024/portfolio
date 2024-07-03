@@ -1,6 +1,6 @@
 export async function postSendEmail(content) {
     try {
-      const response = await fetch('https://weima.info/vm/send_email', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
